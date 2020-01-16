@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #7f8c8d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    background: red;/*????????????????????*/
+    margin: 10px auto;
+}
+
+.superior{
+    background: #2980b9;
+    overflow: hidden;/*que no se vea el desborde*/
+    height: 125px;
+}
+
+.logo{
+    padding: 25px;
+    height: 69px;
+    width: 120px;
+    float: left;
+    background-image: url(Images/Digg.ico);
+    background-size: 71px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* --------------------------menu -----------------------*/
+.menu{
+    float: left;
+    padding: 50px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background: #14537c;
+}
+
+.slider{
+    height: 400px;
+    background-image: url(Images/slider.jpg);
+    background-size: cover;
+    background-position: 11px -20px;
+}
