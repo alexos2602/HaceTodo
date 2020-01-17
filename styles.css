@@ -10,14 +10,13 @@ body{
 
 .container{
     width: 1200px;
-    background: red;/*????????????????????*/
+    background: white;/*????????????????????*/
     margin: 10px auto;
 }
 
 .superior{
     background: #2980b9;
     overflow: hidden;/*que no se vea el desborde*/
-    height: 125px;
 }
 
 .logo{
@@ -33,7 +32,7 @@ body{
 /* --------------------------menu -----------------------*/
 .menu{
     float: left;
-    padding: 50px;
+    padding: 50px 50px 50px 160px;
 }
 
 .opciones li{
@@ -57,4 +56,59 @@ body{
     background-image: url(Images/slider.jpg);
     background-size: cover;
     background-position: 11px -20px;
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px 15px;
+    color: tomato;
+    font-size: 35px;
+}
+
+.caja{
+    float: left;
+    margin: 9px;
+    width: 380px;
+    border: 1px solid;
+}
+
+.subtitulo{
+    background: #14537c;
+    color: white;
+}
+
+.subtitulo img{
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+}
+
+.efecto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.servicios{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+
+.contenido{
+    padding: 18px;
+    text-align: justify;
+}
+
+.boton{
+    padding: 15px 20px;
+    display: block;
+    margin: 20px auto;
+    color: white;
+    background: #14537c;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background: #0c3c5c;
+    cursor: pointer;
 }
